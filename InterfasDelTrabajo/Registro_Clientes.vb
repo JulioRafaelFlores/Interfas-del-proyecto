@@ -20,4 +20,8 @@
 
 
     End Sub
+
+    Private Sub Txtnombre_TextChanged(sender As Object, e As EventArgs) Handles Txtnombre.TextChanged
+
+    End Sub
 End Class

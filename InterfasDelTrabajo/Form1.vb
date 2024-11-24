@@ -9,4 +9,10 @@
 
 
     End Sub
+
+    Private Sub ProveedoresToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ProveedoresToolStripMenuItem.Click
+        Dim Registro_Proveedores As New Registro_Preoveedores
+        Registro_Proveedores.Show()
+
+    End Sub
 End Class

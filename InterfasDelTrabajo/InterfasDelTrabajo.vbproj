@@ -101,6 +101,12 @@
     <Compile Include="Registro_Clientes.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Registro_Preoveedores.Designer.vb">
+      <DependentUpon>Registro_Preoveedores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro_Preoveedores.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
@@ -114,6 +120,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Registro_Clientes.resx">
       <DependentUpon>Registro_Clientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro_Preoveedores.resx">
+      <DependentUpon>Registro_Preoveedores.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

@@ -57,25 +57,26 @@ Partial Class Registro_Clientes
         '
         'cmdsalir
         '
+        Me.cmdsalir.BackColor = System.Drawing.SystemColors.HighlightText
         Me.cmdsalir.Location = New System.Drawing.Point(429, 318)
         Me.cmdsalir.Name = "cmdsalir"
         Me.cmdsalir.Size = New System.Drawing.Size(75, 23)
         Me.cmdsalir.TabIndex = 13
         Me.cmdsalir.Text = "Salir"
-        Me.cmdsalir.UseVisualStyleBackColor = True
+        Me.cmdsalir.UseVisualStyleBackColor = False
         '
         'Txtnombre
         '
         Me.Txtnombre.Location = New System.Drawing.Point(265, 37)
         Me.Txtnombre.Name = "Txtnombre"
-        Me.Txtnombre.Size = New System.Drawing.Size(190, 20)
+        Me.Txtnombre.Size = New System.Drawing.Size(181, 20)
         Me.Txtnombre.TabIndex = 2
         '
         'Txtidcliente
         '
         Me.Txtidcliente.Location = New System.Drawing.Point(265, 77)
         Me.Txtidcliente.Name = "Txtidcliente"
-        Me.Txtidcliente.Size = New System.Drawing.Size(190, 20)
+        Me.Txtidcliente.Size = New System.Drawing.Size(181, 20)
         Me.Txtidcliente.TabIndex = 4
         '
         'lblIdcliente
@@ -90,6 +91,7 @@ Partial Class Registro_Clientes
         'lblnombre
         '
         Me.lblnombre.AutoSize = True
+        Me.lblnombre.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.lblnombre.Location = New System.Drawing.Point(160, 44)
         Me.lblnombre.Name = "lblnombre"
         Me.lblnombre.Size = New System.Drawing.Size(44, 13)
@@ -148,6 +150,7 @@ Partial Class Registro_Clientes
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.ClientSize = New System.Drawing.Size(562, 353)
         Me.Controls.Add(Me.txtdireccion)
         Me.Controls.Add(Me.txtnumero)
@@ -163,6 +166,7 @@ Partial Class Registro_Clientes
         Me.Controls.Add(Me.cmdlimpiar)
         Me.Controls.Add(Me.cmdenviar)
         Me.Name = "Registro_Clientes"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Registro_Clientes"
         Me.ResumeLayout(False)
         Me.PerformLayout()
