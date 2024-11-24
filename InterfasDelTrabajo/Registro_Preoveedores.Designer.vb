@@ -34,12 +34,12 @@ Partial Class Registro_Preoveedores
         Me.txtcompañia = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Paprosusministrados = New System.Windows.Forms.Panel()
-        Me.txtproducto1 = New System.Windows.Forms.TextBox()
-        Me.txtproducto2 = New System.Windows.Forms.TextBox()
-        Me.txtproducto3 = New System.Windows.Forms.TextBox()
-        Me.Txtproducto4 = New System.Windows.Forms.TextBox()
-        Me.Txtfecharegistro = New System.Windows.Forms.TextBox()
         Me.lblfecharegistro = New System.Windows.Forms.Label()
+        Me.Txtfecharegistro = New System.Windows.Forms.TextBox()
+        Me.Txtproducto4 = New System.Windows.Forms.TextBox()
+        Me.txtproducto3 = New System.Windows.Forms.TextBox()
+        Me.txtproducto2 = New System.Windows.Forms.TextBox()
+        Me.txtproducto1 = New System.Windows.Forms.TextBox()
         Me.lblenviar1 = New System.Windows.Forms.Button()
         Me.lbllimpiar2 = New System.Windows.Forms.Button()
         Me.lblsalir1 = New System.Windows.Forms.Button()
@@ -149,41 +149,6 @@ Partial Class Registro_Preoveedores
         Me.Paprosusministrados.Size = New System.Drawing.Size(348, 150)
         Me.Paprosusministrados.TabIndex = 11
         '
-        'txtproducto1
-        '
-        Me.txtproducto1.Location = New System.Drawing.Point(197, 15)
-        Me.txtproducto1.Name = "txtproducto1"
-        Me.txtproducto1.Size = New System.Drawing.Size(132, 20)
-        Me.txtproducto1.TabIndex = 11
-        '
-        'txtproducto2
-        '
-        Me.txtproducto2.Location = New System.Drawing.Point(197, 41)
-        Me.txtproducto2.Name = "txtproducto2"
-        Me.txtproducto2.Size = New System.Drawing.Size(132, 20)
-        Me.txtproducto2.TabIndex = 12
-        '
-        'txtproducto3
-        '
-        Me.txtproducto3.Location = New System.Drawing.Point(197, 67)
-        Me.txtproducto3.Name = "txtproducto3"
-        Me.txtproducto3.Size = New System.Drawing.Size(132, 20)
-        Me.txtproducto3.TabIndex = 13
-        '
-        'Txtproducto4
-        '
-        Me.Txtproducto4.Location = New System.Drawing.Point(197, 93)
-        Me.Txtproducto4.Name = "Txtproducto4"
-        Me.Txtproducto4.Size = New System.Drawing.Size(132, 20)
-        Me.Txtproducto4.TabIndex = 14
-        '
-        'Txtfecharegistro
-        '
-        Me.Txtfecharegistro.Location = New System.Drawing.Point(197, 127)
-        Me.Txtfecharegistro.Name = "Txtfecharegistro"
-        Me.Txtfecharegistro.Size = New System.Drawing.Size(132, 20)
-        Me.Txtfecharegistro.TabIndex = 12
-        '
         'lblfecharegistro
         '
         Me.lblfecharegistro.AutoSize = True
@@ -192,6 +157,41 @@ Partial Class Registro_Preoveedores
         Me.lblfecharegistro.Size = New System.Drawing.Size(89, 13)
         Me.lblfecharegistro.TabIndex = 15
         Me.lblfecharegistro.Text = "Fecha de registro"
+        '
+        'Txtfecharegistro
+        '
+        Me.Txtfecharegistro.Location = New System.Drawing.Point(197, 127)
+        Me.Txtfecharegistro.Name = "Txtfecharegistro"
+        Me.Txtfecharegistro.Size = New System.Drawing.Size(132, 20)
+        Me.Txtfecharegistro.TabIndex = 12
+        '
+        'Txtproducto4
+        '
+        Me.Txtproducto4.Location = New System.Drawing.Point(197, 93)
+        Me.Txtproducto4.Name = "Txtproducto4"
+        Me.Txtproducto4.Size = New System.Drawing.Size(132, 20)
+        Me.Txtproducto4.TabIndex = 14
+        '
+        'txtproducto3
+        '
+        Me.txtproducto3.Location = New System.Drawing.Point(197, 67)
+        Me.txtproducto3.Name = "txtproducto3"
+        Me.txtproducto3.Size = New System.Drawing.Size(132, 20)
+        Me.txtproducto3.TabIndex = 13
+        '
+        'txtproducto2
+        '
+        Me.txtproducto2.Location = New System.Drawing.Point(197, 41)
+        Me.txtproducto2.Name = "txtproducto2"
+        Me.txtproducto2.Size = New System.Drawing.Size(132, 20)
+        Me.txtproducto2.TabIndex = 12
+        '
+        'txtproducto1
+        '
+        Me.txtproducto1.Location = New System.Drawing.Point(197, 15)
+        Me.txtproducto1.Name = "txtproducto1"
+        Me.txtproducto1.Size = New System.Drawing.Size(132, 20)
+        Me.txtproducto1.TabIndex = 11
         '
         'lblenviar1
         '
@@ -241,6 +241,7 @@ Partial Class Registro_Preoveedores
         Me.Controls.Add(Me.txtproveedor)
         Me.Controls.Add(Me.lblproveedor)
         Me.Name = "Registro_Preoveedores"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Registro_Preoveedores"
         Me.Paprosusministrados.ResumeLayout(False)
         Me.Paprosusministrados.PerformLayout()
